@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        
+        }
+
+         .con{
+           
+           height: 100vh;
+           
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+        .ele{
+            width: 350px;
+            height: 450px;
+    
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+           flex-direction: column;
+           align-items: center;
+           background-color: whitesmoke;
+          
+        }
+        .style{
+            
+            border-radius: 20px;
+            height: 50px;
+            width: 300px;
+            margin-top: 10px;
+            border-color: rgba(0, 0, 0, 0.792);
+            padding: 15px;
+           
+            
+           
+        }
+       
+        .spl{
+            position: relative;
+            top:-35px ;
+            left: 265px;
+        }
+        .m{
+            
+            border-radius: 20px;
+           
+            height: 50px;
+            width: 150px;
+            margin-top: 10px;
+            background-color:#f7444e;
+            color: aliceblue;
+           border: none;
+           margin-top: 30px;
+     
+        }     
+        .ele1 input:hover{
+            border: transparent;
+            border-bottom: 1px solid #f7444e;
+        }
+       .ele1 input{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       
+        pre input{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .m1{
+            margin: 20px;
+        }
+        .m:hover{
+            background-color: transparent;
+            border: 2px solid #f7444e;
+            color: #f7444e;
+        }
+        .spl1{
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="ele">
+            
+            <h2 style="margin-bottom: 20px ; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">Login</h2>
+            <div class="ele1">
+
+            <input type="text" placeholder="Email" class="style"> <i class="fa-solid fa-envelope spl" ></i>
+
+            <input type="text" placeholder="Password" class="style"> <i class="fa-solid fa-lock spl" ></i>
+    </div>
+        <pre><input type="checkbox" ><label for="" style="font-size: 15px; font-family: 'Times New Roman', Times, serif;" > Remember me               <a href="forgot_password.html">Forgot password</a></label</label></pre> 
+       <a href="index.html"> <input type="button" value="Login" class="m" ></a>
+        <pre class="m1"><label for="" style=" font-size: 15px; font-family: 'Times New Roman', Times, serif;">Don't have an account ?  <a href="register.html">Register</a> </label></pre>
+       
+        </div>
+    </div>
+</body>
+</html>

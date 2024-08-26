@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+    .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+        }
+        .nav .ele ul {
+            display: flex;
+         
+            justify-content: space-between;
+            align-items: center;
+            
+            width:874px;
+            height: 50px;
+            font-size: 25px;
+           list-style: none;
+          
+         
+          
+           
+        }
+       ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        ul li a:hover{
+            color: #f7444e;
+        }
+        .hero{
+            background: url("../assests/images/slider-bg.jpg");
+            
+            background-size: cover;
+            width: 100%;
+            height: 88.4vh;
+            
+        }
+        .hero h1{
+            width: 722px;
+            height: 250px;
+            font-size: 70px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 90px 0px 0px 150px;
+          
+           
+        }
+       .hero pre{
+        color: #f7444e;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           
+       }
+       .hero p{
+        width: 730px;
+        height: 96px;
+        padding: 20px 0px 0px 150px;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       .hero .btn{
+       height: 49px;
+       width: 170px;
+       padding: 120px;
+       }
+       .b{
+            
+            border-radius: 10px;
+           
+            height: 50px;
+            width: 200px;
+            background-color:#f7444e;
+            border: none;
+            margin: 50px  0px 0px 300px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+       }
+       .b:hover{
+        cursor: pointer;
+        border: 2px solid #f7444e;
+        color: #f7444e;
+        background-color: white;
+        transition: 5s;
+       }
+       .about1{
+        
+        width: 98.9vw;
+        height: 57vh;
+        display: flex;
+       justify-content: space-around;
+      
+      
+       }
+       .about1 .left{
+        width: 360px;
+        height: 278px;
+        background-color: #002c3e;
+        margin: 100px 0px 50px 100px;
+        color: white;
+        border-radius: 10px;
+        
+       }
+       .about1 .centre{
+        width: 360px;
+        height: 278px;
+        background-color: #002c3e;
+        margin: 100px 0px 50px 0px;
+        color: white;
+        border-radius: 10px;
+       }
+       .about1 .right{
+        width: 360px;
+        height: 278px;
+        background-color: #002c3e;
+        margin: 100px 100px 50px 0px;
+        color: white;
+        border-radius: 10px;
+        
+       }
+      
+       .about .content{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        padding: 30px 0px 0px 10px;
+        
+        
+       }
+       .about .content-1{
+       
+        border-bottom: 5px solid #f7444e;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 745px;
+       }
+       .about1 .left h1, .right h1, .centre h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+       }
+       .about1 .left p, .right p, .centre p{
+        font-size: 25px;
+        margin:0px 0px 16px 55px;
+       
+       }
+       .about .about1 .icon{
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       }
+       .left .icon, .right .icon,.centre .icon{
+        margin: 50px 150px 20px ;
+       }
+    .icon:hover{
+        background-color: white;
+        color: #002c3e;
+        cursor: pointer;
+       }
+       .about1 .left:hover, .about1 .right:hover,.about1 .centre:hover{
+       cursor: pointer;
+       transform: scale(1.1);
+       transition: 3s;
+       }
+       .ab2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       }
+       .about2{
+        height: 70vh;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+        width: 90%;
+        border-radius: 10px;
+        background-color: #d4ced0;
+
+       }
+       .about2 .about2-left{
+       
+       background: url(../assests/images/arrival-bg.jpg);
+       width: 50vw;
+       height: 100vh;
+       background-size: cover;
+       max-height: 100%;
+       border-radius: 10px;
+
+      
+    }
+    
+    .about2-right h1{
+        font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        
+        
+     
+    }
+    .about2-right p{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 150px;
+        margin-right: 150px;
+        
+       
+    }
+    
+    .b1{
+            
+            border-radius: 10px;
+           
+            height: 50px;
+            width: 200px;
+            background-color:#f7444e;
+            border: none;
+            margin: 30px  0px 50px 370px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            
+       }
+       .b1:hover{
+        cursor: pointer;
+        border: 2px solid #f7444e;
+        color: #f7444e;
+        background-color: white;
+        transition: 3s;
+       }
+        .products{
+            height: 220vh;
+          
+            
+        }
+        .products  h1 {
+        font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        
+    
+        }
+        .product_title{
+            color: #f7444e;
+            margin-left: 12px;
+        }
+        .product_content1 {
+        border-bottom: 5px solid #f7444e;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -150px 700px;
+      }
+      .product1  .pro, .pro1{
+       background-color: gainsboro;
+        height: 270px;
+        max-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        margin-top: 10px;
+        
+       
+        
+      
+        }
+      
+      .products .product1{
+       
+        background-color: rgba(245, 245, 245, 0.699);
+        height: 185vh;
+        margin: 220px 150px ;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        gap: 15px;
+        justify-content: space-around;
+       
+        
+    }
+    
+   .pro img{
+    height: 70%; 
+    width: 70%;  
+    background-color: white;
+    margin: 0px 10px 0px 40px;
+    margin-top: 20px;
+     
+   }
+   .pro1 img{
+    height: 70%; 
+    width: 70%;  
+    
+    margin: 0px 10px 0px 40px;
+    margin-top: 20px;
+
+     
+   }
+   .product1{
+ 
+    
+    
+    padding-bottom: 780px;
+   }
+      
+   .contact{
+            height: 240vh;
+            
+           
+        }
+        .contact .h1{
+            text-align: center;
+            padding: 50px;
+            
+            color: #d4ced0;
+        }
+        .contact .map{
+            text-align: center;
+        }
+        .contact .contact_details{
+            width: 80%;
+            height: 19%;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 628px 628px;
+            margin-left: 150px;
+            margin-top: 30px;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+         
+          
+        }
+        .contact_details .con_details1, .con_details2, .con_details3, .con_details4{
+        
+            height: 100px;
+            margin: 20px;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            text-align: start;
+            box-shadow:
+            2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            6.7px 6.7px 5.3px rgba(0, 0, 0, 0),
+            12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+            22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042);
+            border-radius: 10px;
+            border: 0.2px solid rgba(220, 220, 220, 0.359);
+            cursor: pointer;
+           
+        }
+     .con_style_right{
+            
+           
+            padding: 20px;
+            font-size: 16px;
+            
+            width: 380px;
+        }
+        .con_style_left{
+            padding: 20px;
+            background-color: #f7444e;
+            font-size: 25px;
+            border-radius: 50%;
+            margin: 10px;
+            color: white;
+        }
+        .con_style_left:hover{
+            background-color: white;
+            color: #f7444e;
+        }
+        .contact .table{
+            width: 80%;
+            
+            
+            height: 29%;
+            margin: 20px 0px 10px 150px;
+            box-shadow:
+            2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+       
+            2.5px 2.5px 2px rgba(0, 0, 0, 0.035),
+            
+            41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05);
+            border: 0.2px solid rgba(220, 220, 220, 0.359);
+        }
+        .table .top{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+         .table .top input{
+            width: 580px;
+            height: 50px;
+            margin: 20px;
+            padding: 20px;
+           
+            border: 1px solid #636161a1;
+            color: #636161a1;
+        }
+        .table .bottom input{
+           height: 100px;
+           width: 1175px;
+           margin: 20px;
+           padding: 20px;
+           border: 1px solid #636161a1;
+           color: #636161a1;
+           
+        }
+        .about_last{
+            background-color: #030333bb;
+            height: 8%;
+            width: 100%;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid transparent;
+            
+        }
+        .about_last .aboutlast_bottom{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            
+        }
+        .about_last1, .about_last2, .about_last3 , .about_last4{
+            color: white;
+            width: 100%;
+            font-size: 20px;
+            
+        }
+        .about_last1{
+            margin: 150px;
+        }
+        .about_last2{
+            margin: 50px;
+        }
+        .btns_sendmessage{
+        border-radius: 10px;
+           
+           height: 50px;
+           width: 150px;
+           background-color:#f7444e;
+           border: none;
+           margin: 50px  0px 0px 300px;
+           font-size: 16px;
+           font-family: 'Times New Roman', Times, serif;
+           color: white;
+           margin-left: 540px;
+           cursor: pointer;
+           
+        }
+        .btns_sendmessage:hover{
+            
+        cursor: pointer;
+        border: 2px solid #f7444e;
+        color: #f7444e;
+        background-color: white;
+        transition: 2s;
+       }
+       .pro2_1{
+        border-radius: 10px;
+           
+           height: 50px;
+           width: 190px;
+           background-color:#f7444e;
+           border: none;
+           margin: 50px  0px 0px 300px;
+           font-size: 18px;
+           font-family: 'Times New Roman', Times, serif;
+           color: white;
+           margin-left: 480px;
+           cursor: pointer;
+        
+       }
+       .pro2_1:hover{
+
+       
+        border: 2px solid #f7444e;
+        color: #f7444e;
+        background-color: white;
+        transition: 2s;
+       }
+       
+       
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img  src="C:\Users\ajaykumar\OneDrive\Pictures\Free-Logo-Design-Template-for-Online-Store-PNG-transparent (1).png" alt="" width="150px">
+        </div>
+        <div class="ele">
+            <ul>
+                <li><a href="#" style="color: #f7444e;">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="register.html">Login</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                
+                
+                
+                
+            </ul>
+        </div>
+       
+    </div>
+    <div class="hero">
+        <h1><pre>Sale 20% Off</pre> 
+        On Everything</h1>
+            <p>Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.</p>
+        <a href="#"><input type="button" value="Shop now" class="b" ></a>
+    </div>
+</div>
+<div class="about" id="about">
+    <h1 style="text-align: center; margin-top: 20px; color: #d4ced0;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">ABOUT US</h1>
+    <h1 class="content">Why Shop With Us</h1>
+    <h1 class="content-1"></h1>
+    <div class="about1">
+
+        <div class="left">
+            <div class="icon"><i class="fa-solid fa-truck"></i></div>
+            <h1>Fast Delivery</h1>
+            <p>variations of passages of Lorem Ipsum available</p>
+        </div>
+        <div class="centre">
+            <div class="icon"><i class="fa-solid fa-wallet"></i></div>
+            <h1>Free Shiping</h1>
+            <p>variations of passages of Lorem Ipsum available</p>
+        </div>
+        <div class="right">
+            <div class="icon"><i class="fa-solid fa-award"></i></div>
+            <h1>Best Quality</h1>
+            <p>variations of passages of Lorem Ipsum available</p>
+        </div>
+</div>
+<div class="ab2">
+<div class="about2">
+    <div class="about2-left" >
+    </div>
+        
+    <div class="about2-right">
+        <h1>#New Arrivals</h1>
+        <p>Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!</p>
+        <a href="#"><input type="button" value="Shop now" class="b1" ></a>
+    </div>   
+  
+</div>
+</div>
+</div>
+</div>
+<div class="products" id="products">
+    
+        <h1 class="product_content">Our <p class="product_title"> Products</p></h1><h1 class="product_content1"></h1>
+        <div class="product1">
+    <div class="pro">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/p12.png" alt="">
+        <p style="font-size: 20px; margin-top: 20px; margin-left: 40px;"><b>Women's Dress <span style="margin: 34px;">$65</span></b></p>
+    </div></div>
+    <div class="pro">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/diamond-jewellery-by-jewellers-2-jpg.jpg" alt="" >
+        <p style="font-size: 18.5px; margin-top: 17px; margin-left: 40px;"><b>Diamond Jewellery <span style="margin-left: 20px;">  $30</span></b></p>
+    </div></div>
+    <div class="pro">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/aarozandcompany.com-2.png" alt="" >
+        <p style="font-size: 18.5px; margin-top: 17px; margin-left: 40px;"><b>Color Bangles <span style="margin-left: 55px;">  $25</span></b></p>
+    </div></div>
+    <div class="pro1">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/lipstick-XorGo24-600.jpg" alt="" >
+        <p style="font-size: 18.5px; margin-top: 17px; margin-left: 40px;"><b>Lipstick <span style="margin-left: 100px;">  $60</span></b></p>
+    </div></div>
+    <div class="pro1">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/tanvi-skin-cream.png" alt="" >
+        <p style="font-size: 18.5px; margin-top: 17px; margin-left: 40px;"><b>Skin Cream <span style="margin-left: 70px;">  $40</span></b></p>
+    </div></div>
+    <div class="pro1">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/pastel-colored-school-bag-stuffed-toy-cartoon-multi-pocket-original-imagnjucgmw87ra3.webp" alt="" >
+        <p style="font-size: 18.5px; margin-top: 17px; margin-left: 40px;"><b>Fancy Backpacks <span style="margin-left: 30px;">  $29</span></b></p>
+    </div></div>
+    <div class="pro1">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/Fossil-Mobile.png" alt="" >
+        <p style="font-size: 18.5px; margin-top: 17px; margin-left: 40px;"><b>Analog Watch <span style="margin-left: 30px;">  $55</span></b></p>
+    </div></div>
+    <div class="pro1">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/360_F_636179818_hgXscA6XLdaJBhZoxn1IkeQbmwzDxsRS.jpg" alt="" >
+        <p style="font-size: 18.5px; margin-top: 17px; margin-left: 40px;"><b>Fancy Rings <span style="margin-left: 70px;">  $37</span></b></p>
+    </div></div>
+    <div class="pro1">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/92ce9ce9180de811bb39ea10ff5cdfd0.webp" alt="" >
+        <p style="font-size: 18.5px; margin-top: 17px; margin-left: 40px;"><b>Fancy Handbag <span style="margin-left: 50px;">  $42</span></b></p>
+    </div></div>
+    <div class="pro1">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/7-btswhite-nowry-white-original-imaggrwmbhszu8ww.webp" alt="" >
+        <p style="font-size: 18.5px; margin-top: 17px; margin-left: 40px;"><b>Style Slippers <span style="margin-left: 60px;">  $47</span></b></p>
+    </div></div>
+    <div class="pro1">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/Philips-BHS393-00-STYLER-492284179-i-1-1200Wx1200H.jpg" alt="" >
+        <p style="font-size: 18.5px; margin-top: 17px; margin-left: 40px;"><b>Hair Straightener <span style="margin-left: 30px;">  $85</span></b></p>
+    </div></div>
+    <div class="pro1">
+        <div class="p1" style="background-color: white; width: 290px; height: 260px;">
+        <img src="../assests/images/51viEMxCU-L._SR600,315_PIWhiteStrip,BottomLeft,0,35_SCLZZZZZZZ_FMpng_BG255,255,255.png" alt="" >
+        <p style="font-size: 18.5px; margin-top: 17px; margin-left: 40px;"><b>Fogg Spray <span style="margin-left: 80px;">  $70</span></b></p>
+    </div></div>
+
+    <div class="pro2">
+        <a href="#viewproduct">  <button class="pro2_1">View All Products</button></a> </div>
+   
+    
+</div>
+</div>
+
+
+<div class="contact" id="contact">
+    <h1 class="h1" style="font-size: 50px; margin-left: 10px; color: black;">Contact <span style="color: #f7444e;"> Us</span></h1>
+    <h1 class="contact-1"></h1>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.5668916154827!2d78.49610677858537!3d17.480431940679146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9b135f5f8af9%3A0x653c923ea376b088!2sshopping%20mall!5e0!3m2!1sen!2sin!4v1720242788402!5m2!1sen!2sin" width="80%" height="550px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div class="contact_details">
+    <div class="con_details1">
+        <div class="con_left"><i class="fa-solid fa-location-dot con_style_left" style="padding: 20px;"></i></div>
+        <div class="con_right"><p class="con_style_right" style="font-size: 16px; margin-left: 5px;"><b style="color: #636161; font-size: 25px;">Address </b> <br>
+            A108 Adam Street, New York, NY 535022<p></div>
+        
+    </div>
+    <div class="con_details2">
+        <div class="con_left"><i class="fa-solid fa-phone-volume con_style_left"></i></div>
+        <div class="con_right"><p class="con_style_right"><b style="color: #636161;font-size: 25px;">Call Us </b><br>
+            +1 5589 55488 55</p></div>
+    </div>
+    <div class="con_details3">
+        <div class="con_left"><i class="fa-solid fa-envelope con_style_left"></i></div>
+        <div class="con_right"><p  class="con_style_right"><b style="color: #636161; font-size: 25px;">Email Us</b> <br>
+            info@example.com</p></div>
+    </div>
+    <div class="con_details4">
+        <div class="con_left"><i class="fa-solid fa-clock con_style_left"></i></div>
+        <div class="con_right"><p  class="con_style_right"  ><b style="font-size: 25px; color: #636161;">Opening Hours</b> <br>
+            Mon-Sat: 11AM - 23PM; Sunday: Closed</p></div>
+    </div>
+
+</div>
+<div class="table">
+    <div class="top">
+        <input placeholder="Name">
+        <input placeholder="Email">
+  
+        
+    </div>
+    <div class="bottom">
+        <input placeholder="subject" style="height: 70px;">
+       
+        <input placeholder="Message">
+        <button class="btns_sendmessage">Send message</button>
+        
+    </div>
+    </div>
+
+    <div class="about_last">
+        <div class="aboutlast_bottom">
+        <div class="about_last1">
+        <div class="about_last1_left"> <i class="fa-solid fa-location-dot" style="color: #f7444e;"></i><b style="margin-left: 10px;">Address </b></div>
+        <div class="about_last1_right"><p class=>A108 Adam Street, New York, NY 535022<p></div></div>
+        <div class="about_last3">
+        <div class="about_last3_left"><i class="fa-solid fa-envelope " style="color: #f7444e;"></i><b style="margin-left: 10px;">Email Us</b></div>
+        <div class="about_last3_right"><p >info@example.com</p></div> </div>
+        <div class="about_last4">
+        <div class="about_last4_left"><i class="fa-solid fa-clock" style="color: #f7444e;"></i> <b style="margin-left: 10px;">Opening Hours</b></div>
+        <div class="about_last4_right"><p>Mon-Sat: 11AM - 23PM; Sunday: Closed</p></div></div>
+        <div class="about_last2">
+            <div class="about_last2_left"><b >FOLLOW  US</b></div>
+        <div class="about_last2_right"><p ><i class="fa-brands fa-instagram" style="color: #f744a6e9; padding: 3px;" ></i><i class="fa-brands fa-facebook" style="color: blue; padding: 10px;"></i><i class="fa-brands fa-linkedin " style="color: rgba(5, 5, 85, 0.733); padding: 10px;"></i><i class="fa-brands fa-whatsapp" style="color: green;  padding: 10px;"></i></p></div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
+ 

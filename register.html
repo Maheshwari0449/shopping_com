@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .con{
+           
+            height: 100vh;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ele{
+            width: 350px;
+            height: 570px;
+    
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+           flex-direction: column;
+           align-items: center;
+           background-color: whitesmoke;
+          
+        }
+       .style{
+            
+            border-radius: 20px;
+           
+            height: 50px;
+            width: 300px;
+            margin-top: 10px;
+            border-color: rgba(0, 0, 0, 0.738);
+           
+        }
+        .m{
+            
+            border-radius: 20px;
+           
+            height: 50px;
+            width: 200px;
+            margin-top: 10px;
+            background-color:#f7444e;
+            color: aliceblue;
+           border: none;
+           margin-top: 30px;
+     
+        }
+        .spl{
+            position: relative;
+            top:-35px ;
+            left: 260px;
+        }
+     .ele1 input:hover{
+            
+            border: transparent;
+            border-bottom: 1px solid #f7444e;
+        }
+        .ele1 input{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .m:hover{
+            background-color: transparent;
+            border: 2px solid #f7444e;
+            color: #f7444e;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="con">
+    <div class="ele">
+        <h2 style="margin-bottom: 20px ; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">Create Account</h2>
+        <div class="ele1">
+        <input type="text" placeholder="Name"  class="style" > <i class="fa-solid fa-user spl" ></i>
+        <input type="text" placeholder="Email" class="style"> <i class="fa-solid fa-envelope spl" ></i>
+        <input type="text" placeholder="Password" class="style"> <i class="fa-solid fa-lock spl" ></i>
+        <input type="text" placeholder="Mobile number" class="style"> <i class="fa-solid fa-phone spl" ></i>
+        
+    </div>
+       <pre><input type="checkbox" ><label for="" style="font-size: 15px;">  Agree terms and conditions</label></pre> 
+        <a href="login.html"><input type="button" value="Register" class="m" ></a>
+        
+    </div></div>
+</body>
+
+</html>
